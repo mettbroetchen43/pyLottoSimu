@@ -15,3 +15,7 @@ pyLottoverwaltung.e4p
 pyLottoSimu/docs/_build/
 
 .directory
+
+*.patch
+*.diff
+
