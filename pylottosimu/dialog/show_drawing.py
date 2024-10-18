@@ -29,11 +29,7 @@ and the bonus numbers.
 
 import os
 
-try:
-    from PyQt6 import QtCore, QtGui, QtWidgets
-except ImportError:
-    from PyQt5 import QtCore, QtGui, QtWidgets
-
+from PyQt6 import QtCore, QtGui, QtWidgets
 
 class DlgShowDrawing(QtWidgets.QDialog):
     """Show the numbers in a dialog box

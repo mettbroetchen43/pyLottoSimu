@@ -24,10 +24,7 @@
 
 import unittest
 
-try:
-    from PyQt6.QtWidgets import QApplication
-except ImportError:
-    from PyQt5.QtWidgets import QApplication
+from PyQt6.QtWidgets import QApplication
 
 from pylottosimu.dialog.show_drawing import DlgShowDrawing
 

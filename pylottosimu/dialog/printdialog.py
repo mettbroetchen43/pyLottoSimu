@@ -24,11 +24,7 @@ along with pyLottoSimu.  If not, see <http://www.gnu.org/licenses/>.
 import os
 import sys
 
-try:
-    from PyQt6 import QtGui, QtPrintSupport, QtWidgets
-except ImportError:
-    from PyQt5 import QtGui, QtPrintSupport, QtWidgets
-
+from PyQt6 import QtGui, QtPrintSupport, QtWidgets
 
 class DlgPrint(QtWidgets.QDialog):
     def __init__(self):

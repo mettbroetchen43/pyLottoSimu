@@ -30,13 +30,8 @@ Manage the GUI of setting dialog. Use lottosystem.ui.
 import os
 import sys
 
-try:
-    from PyQt6 import QtGui, QtWidgets, uic
-    from PyQt6.QtSvgWidgets import QSvgWidget
-except ImportError:
-    from PyQt5 import QtGui, QtWidgets, uic
-    from PyQt5.QtSvg import QSvgWidget
-
+from PyQt6 import QtGui, QtWidgets, uic
+from PyQt6.QtSvgWidgets import QSvgWidget
 
 class LottoSettingsDialog(QtWidgets.QDialog):
     """The GUI of Settings.

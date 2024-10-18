@@ -25,10 +25,7 @@ along with pyLottoSimu.  If not, see <http://www.gnu.org/licenses/>.
 import os
 import sys
 
-try:
-    from PyQt6 import QtCore, QtWidgets
-except ImportError:
-    from PyQt5 import QtCore, QtWidgets
+from PyQt6 import QtCore, QtWidgets
 
 from pylottosimu import pylotto
 
