@@ -24,7 +24,7 @@ The program requires [Python 3.x](http://www.python.org/download/)
 and PyQt5 for Python 3 `pip3 install PyQt5`.
 
 ```
-# sudo apt-get install python3 python3-pyqt5 git
+# sudo apt-get install python3 python3-pyqt6 git
 ```
     
 Then you copied the source code of the program on your computer,
